@@ -85,7 +85,7 @@ under the License.
                 <script location="component://ofbizdemo/webapp/ofbizdemo/WEB-INF/actions/crud/ListOfbizDemo.groovy"/>
             </actions>
             <widgets>
-                <decorator-screen name="main-decorator" location="${parameters.mainDecoratorLocation}">
+                <decorator-screen name="main-decorator" location="${parameters.mainDecoratorLocation}"> //change the decorator name here as OfbizDemoCOmmonDecorator to get use of ftl
                     <decorator-section name="body">
                         <label style="h4" text="${uiLabelMap.OfbizDemoAddOfbizDemoFtl}"/>
                         <platform-specific>
