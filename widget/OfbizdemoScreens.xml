@@ -29,6 +29,7 @@ under the License.
             <widgets>
                 <decorator-screen name="OfbizdemoCommonDecorator" location="${parameters.mainDecoratorLocation}">
                     <decorator-section name="body">
+                        <label text="Hello World!! :)"/>
                     </decorator-section>
                 </decorator-screen>
             </widgets>
